@@ -14,3 +14,4 @@ const clearRefreshCookie = (res) => {
     sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
   });
 };
+module.exports = { setRefreshCookie, clearRefreshCookie };
