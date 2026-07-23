@@ -5,3 +5,4 @@ uploads/*
 !uploads/thumbnails/
 uploads/thumbnails/*
 !uploads/thumbnails/.gitkeep
+dist/
